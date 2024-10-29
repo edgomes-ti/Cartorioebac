@@ -157,7 +157,9 @@ int main() {
         printf("Escolha a opção desejada no Menu: \n\n");
         printf("\t1 - Registrar nomes\n");
         printf("\t2 - Consultar nomes\n");
-        printf("\t3 - Deletar nomes\n\n");
+        printf("\t3 - Deletar nomes\n\n"); 
+    	printf("\t4 - Sair do sistema\n\n");
+    	
         printf("Digite o número correspondente à opção desejada: ");
 
         scanf("%d", &opcao);  // Lê a escolha do usuário
@@ -165,15 +167,24 @@ int main() {
 
         // Seleciona a função correspondente à escolha do usuário
         switch(opcao) {
+        	
             case 1:
                 registro();  // Chama a função de registro
                 break;
+                
             case 2:
                 consulta();  // Chama a função de consulta
                 break;
+                
             case 3:
                 deletar();   // Chama a função de deletar
                 break;
+                
+            case 4:
+                printf ("\t Obrigado por utilizar o sistema de cartório EBAC!\n\n\n\n\n");   // Sair do programa
+                return 0;
+				break;
+				
             default:
                 printf("Essa opção não está disponível!\n");
                 system("pause");  // Pausa a tela para o usuário ler a mensagem de erro
