@@ -67,10 +67,10 @@ Para rodar corretamente, o projeto foi desenvolvido e otimizado para uso no **De
 - O sistema utiliza o arquivo `usuarios.txt` para armazenar as informações dos usuários.
 - O arquivo será criado automaticamente no diretório do projeto na primeira execução do programa.
 - Estrutura de cada registro: 
-
-CPF: 12345678900
-Nome: João da Silva
-Cargo: Engenheiro de Software
+   
+   CPF: 12345678900 
+   Nome: João da Silva 
+   Cargo: Engenheiro de Software
 -------------------------
 
 ## Estrutura do Projeto
